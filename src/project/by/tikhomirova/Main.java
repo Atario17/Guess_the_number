@@ -30,7 +30,7 @@ public class Main {
             System.out.println("Ваше число = " + y);
             if (y == x){
                 System.out.println("Поздравляем, Вы выиграли :)");
-		System.out.println(rand.nextInt(10));
+		System.out.println(x);
                 break;
             }else if(y < x){
                 counter++;
@@ -41,7 +41,7 @@ public class Main {
             }
         }if(counter > 3){
             System.out.println("Вы проиграли:(");
-	    System.out.println(rand.nextInt(10));
+	    System.out.println(x);
         }
     }
 
